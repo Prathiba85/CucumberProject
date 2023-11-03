@@ -1,5 +1,5 @@
 step_definition\calculator_step_definition.class
-step_definition\TestRunner.class
 step_definition\Hooks.class
+step_definition\TestRunner.class
 step_definition\simplilearn_loginstepdefinition.class
 step_definition\NewCalculatorStepDef.class

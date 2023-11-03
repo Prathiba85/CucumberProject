@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6724297700,
+              "duration": 6309921900,
               "status": "passed"
             },
             "line": 5,
@@ -23,8 +23,9 @@
           },
           {
             "result": {
-              "duration": 12205270200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Log in\"}\n  (Session info: chrome\u003d118.0.5993.120)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4685c1f9fcd08edde3089e443029f108, findElement {using\u003dlink text, value\u003dLog in}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\sanpr\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59545}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59545/devtoo..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4685c1f9fcd08edde3089e443029f108\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat step_definition.simplilearn_loginstepdefinition.i_have_clicked_on_login_link(simplilearn_loginstepdefinition.java:30)\r\n\tat ✽.I have clicked on login link(file:///C:/Users/sanpr/exlipsefolder2/simplilearn_cucumber/src/test/java/features/simplilearn_login.feature:6)\r\n",
+              "duration": 1023290000,
+              "status": "failed"
             },
             "line": 6,
             "name": "I have clicked on login link",
@@ -36,11 +37,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-10-31T23:22:07.957Z",
+        "start_timestamp": "2023-11-03T00:31:50.089Z",
         "before": [
           {
             "result": {
-              "duration": 3095218300,
+              "duration": 2555904100,
               "status": "passed"
             },
             "match": {
@@ -67,8 +68,7 @@
         "steps": [
           {
             "result": {
-              "duration": 65514100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "I enter username",
@@ -79,8 +79,7 @@
           },
           {
             "result": {
-              "duration": 65130500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "I enter password",
@@ -91,8 +90,8 @@
           },
           {
             "result": {
-              "duration": 8008468000,
-              "status": "passed"
+              "duration": 1372200,
+              "status": "skipped"
             },
             "line": 17,
             "name": "Click on login",
@@ -103,8 +102,7 @@
           },
           {
             "result": {
-              "duration": 25121100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "I should get error message",
@@ -132,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5871409500,
+              "duration": 5974700500,
               "status": "passed"
             },
             "line": 5,
@@ -144,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 6044418800,
+              "duration": 7664584200,
               "status": "passed"
             },
             "line": 6,
@@ -157,11 +155,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-10-31T23:22:38.193Z",
+        "start_timestamp": "2023-11-03T00:32:00.028Z",
         "before": [
           {
             "result": {
-              "duration": 906223200,
+              "duration": 1085486300,
               "status": "passed"
             },
             "match": {
@@ -188,7 +186,7 @@
         "steps": [
           {
             "result": {
-              "duration": 96019400,
+              "duration": 79298300,
               "status": "passed"
             },
             "line": 21,
@@ -206,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 51694300,
+              "duration": 77720000,
               "status": "passed"
             },
             "line": 22,
@@ -224,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 7982228800,
+              "duration": 8015186400,
               "status": "passed"
             },
             "line": 23,
@@ -236,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 2037646500,
+              "duration": 2041271900,
               "status": "passed"
             },
             "line": 24,
@@ -271,7 +269,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6393620000,
+              "duration": 5912406900,
               "status": "passed"
             },
             "line": 5,
@@ -283,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 6566488600,
+              "duration": 4876660100,
               "status": "passed"
             },
             "line": 6,
@@ -296,11 +294,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-10-31T23:23:01.189Z",
+        "start_timestamp": "2023-11-03T00:32:24.969Z",
         "before": [
           {
             "result": {
-              "duration": 860723700,
+              "duration": 883882400,
               "status": "passed"
             },
             "match": {
@@ -327,7 +325,7 @@
         "steps": [
           {
             "result": {
-              "duration": 178125000,
+              "duration": 92402900,
               "status": "passed"
             },
             "line": 27,
@@ -345,7 +343,7 @@
           },
           {
             "result": {
-              "duration": 162278100,
+              "duration": 59521400,
               "status": "passed"
             },
             "line": 28,
@@ -363,7 +361,7 @@
           },
           {
             "result": {
-              "duration": 9193547600,
+              "duration": 7924213100,
               "status": "passed"
             },
             "line": 29,
@@ -375,7 +373,7 @@
           },
           {
             "result": {
-              "duration": 2064894500,
+              "duration": 2040965600,
               "status": "passed"
             },
             "line": 30,
@@ -413,7 +411,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6263738700,
+              "duration": 5929100900,
               "status": "passed"
             },
             "line": 5,
@@ -425,9 +423,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [80d1bbc6f1ec8d5ba543586c6aa6ada4, findElement {using\u003dlink text, value\u003dLog in}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\sanpr\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58807/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 80d1bbc6f1ec8d5ba543586c6aa6ada4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat step_definition.simplilearn_loginstepdefinition.i_have_clicked_on_login_link(simplilearn_loginstepdefinition.java:30)\r\n\tat ✽.I have clicked on login link(file:///C:/Users/sanpr/exlipsefolder2/simplilearn_cucumber/src/test/java/features/simplilearn_login.feature:6)\r\n",
-              "duration": 29582700,
-              "status": "failed"
+              "duration": 4770845500,
+              "status": "passed"
             },
             "line": 6,
             "name": "I have clicked on login link",
@@ -439,11 +436,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-10-31T23:23:26.614Z",
+        "start_timestamp": "2023-11-03T00:32:46.763Z",
         "before": [
           {
             "result": {
-              "duration": 851252600,
+              "duration": 941996600,
               "status": "passed"
             },
             "match": {
@@ -470,7 +467,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 89956600,
+              "status": "passed"
             },
             "line": 27,
             "name": "I enter username as \"xyz@abc.com\"",
@@ -487,7 +485,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 71900200,
+              "status": "passed"
             },
             "line": 28,
             "name": "I enter password as \"XyZ@1234\"",
@@ -504,7 +503,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 9006648600,
+              "status": "passed"
             },
             "line": 29,
             "name": "Click on login",
@@ -515,8 +515,8 @@
           },
           {
             "result": {
-              "duration": 1001100,
-              "status": "skipped"
+              "duration": 2039868400,
+              "status": "passed"
             },
             "line": 30,
             "name": "I should get error message as \"The email or password you have entered is invalid.\"",
